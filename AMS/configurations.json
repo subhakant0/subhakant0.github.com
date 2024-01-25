@@ -1,7 +1,14 @@
 {
    "title": "AMS",
    "configurations": {
-      "dev": {},
-      "production": {}
-   }
+      "dev": {
+         "production": false,
+         "apiUrl": "https://ams-api-5pmf.onrender.com"
+      },
+      "production": {
+         "production": true,
+         "apiUrl": "https://ams-api-5pmf.onrender.com"
+      }
+   },
+   "version": "1.0.0"
 }
